@@ -11,7 +11,7 @@ try:
 except ImportError:
     TESSERACT_AVAILABLE = False
 
-from app.models.schemas import PDFTextBlock
+from app.services.pdf_processor import PDFTextBlock
 
 
 class OCRProcessor:
