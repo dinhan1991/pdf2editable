@@ -12,8 +12,8 @@ app = FastAPI(
     title=settings.app_name,
     version=settings.version,
     description="AI-powered PDF to Word converter with layout preservation",
-    docs_url="/docs" if settings.debug else None,
-    redoc_url="/redoc" if settings.debug else None,
+    docs_url="/docs",  # Always enabled for OCR testing
+    redoc_url="/redoc",
 )
 
 # CORS middleware
