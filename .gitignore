@@ -1,0 +1,42 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+
+# Output files (generated during conversion)
+output/*.docx
+output/*.pdf
+uploads/*
+temp/*
+
+# Keep directory structure
+!output/.gitkeep
+!uploads/.gitkeep
+!temp/.gitkeep
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
